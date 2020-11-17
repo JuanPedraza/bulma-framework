@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
 <body>
-    <nav class="navbar has-shadow is-danger"></nav>
+    <nav class="navbar has-shadow is-warning">
+        <!-- Logo -->
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="assets/happy moments_fucsia.png" alt="Logo" style="max-height: 70px" class="py-2 px-2" >
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </a>
+        </div>
+        <!-- Links -->
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item">Mi cuenta</a>
+                <a class="navbar-item">Carrito de compras (0)</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+
+    <div class="section pt-4 pb-0">
+        <nav class="breadcrumb has-bullet-separator">
+            <ul class="container">
+                <li><a class="has-text-grey">Happy Moments</a></li>
+                <li><a class="has-text-grey">Compra</a></li>
+                <li class="is-active"><a>Ancheta</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<script src="index.js"></script>
 </body>
 </html>
